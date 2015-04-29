@@ -1,0 +1,69 @@
+﻿@model Models.User
+
+@{
+    ViewBag.Title = "创建登录用户";
+}
+@section headSection{
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#RePwd").focus = (function () { Valitate() });
+            $("#RePwd").blur(function () { Valitate() });
+        });
+        function Valitate() {
+            var pwd = $("#Pwd").val();
+            var rePwd = $("#RePwd").val();
+            if (pwd != rePwd) {
+                $("#ErrTip").text("两次密码不一致");
+            }
+            else {
+                $("#ErrTip").text("");
+            }
+        }
+    </script>
+}
+<h2>注册</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-group">
+            @Html.LabelFor(model => model.UserName, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.UserName, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.UserName, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Pwd, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Pwd, new { htmlAttributes = new { @class = "form-control" }, id = "Pwd" })
+                @Html.ValidationMessageFor(model => model.Pwd, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-md-2    ">重复密码</label>
+            <div class="col-md-10">
+                @Html.Password("RePwd", "", new { @class = "form-control", id = "RePwd" })
+                <label id="ErrTip" class="text-danger"></label>
+            </div>
+        </div>
+
+
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="创建" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("返回主页", "Index")
+</div>

@@ -1,0 +1,5 @@
+E:\E盘备份\Test\MVCDemo\MvcDemoUnitTestProject\bin\Debug\MvcDemoUnitTestProject.dll
+E:\E盘备份\Test\MVCDemo\MvcDemoUnitTestProject\bin\Debug\MvcDemoUnitTestProject.pdb
+E:\E盘备份\Test\MVCDemo\MvcDemoUnitTestProject\obj\Debug\MvcDemoUnitTestProject.csprojResolveAssemblyReference.cache
+E:\E盘备份\Test\MVCDemo\MvcDemoUnitTestProject\obj\Debug\MvcDemoUnitTestProject.dll
+E:\E盘备份\Test\MVCDemo\MvcDemoUnitTestProject\obj\Debug\MvcDemoUnitTestProject.pdb

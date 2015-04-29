@@ -1,0 +1,5 @@
+E:\E盘备份\Test\MVCDemo\InterfaceBLLService\bin\Debug\InterfaceBLLService.dll
+E:\E盘备份\Test\MVCDemo\InterfaceBLLService\bin\Debug\InterfaceBLLService.pdb
+E:\E盘备份\Test\MVCDemo\InterfaceBLLService\obj\Debug\InterfaceBLLService.csprojResolveAssemblyReference.cache
+E:\E盘备份\Test\MVCDemo\InterfaceBLLService\obj\Debug\InterfaceBLLService.dll
+E:\E盘备份\Test\MVCDemo\InterfaceBLLService\obj\Debug\InterfaceBLLService.pdb

@@ -1,0 +1,5 @@
+E:\E盘备份\Test\MVCDemo\BLLService\bin\Debug\BLLService.dll
+E:\E盘备份\Test\MVCDemo\BLLService\bin\Debug\BLLService.pdb
+E:\E盘备份\Test\MVCDemo\BLLService\obj\Debug\BLLService.csprojResolveAssemblyReference.cache
+E:\E盘备份\Test\MVCDemo\BLLService\obj\Debug\BLLService.dll
+E:\E盘备份\Test\MVCDemo\BLLService\obj\Debug\BLLService.pdb
