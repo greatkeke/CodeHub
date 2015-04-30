@@ -158,10 +158,14 @@
     <Compile Include="App_Start\IdentityConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
+    <Compile Include="Controllers\AboutController.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\ContactController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
-    <Compile Include="Controllers\PostNew\PostNewsController.cs" />
+    <Compile Include="Controllers\NewsController.cs" />
+    <Compile Include="Controllers\ProductsController.cs" />
+    <Compile Include="Controllers\TheFirstController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -174,6 +178,36 @@
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\images\1.jpg" />
+    <Content Include="Content\images\2.jpg" />
+    <Content Include="Content\images\3.jpg" />
+    <Content Include="Content\images\arrow.png" />
+    <Content Include="Content\images\close.png" />
+    <Content Include="Content\images\crop.jpg" />
+    <Content Include="Content\images\det-pic.jpg" />
+    <Content Include="Content\images\img-sprite.png" />
+    <Content Include="Content\images\logo.png" />
+    <Content Include="Content\images\magnify.png" />
+    <Content Include="Content\images\minus.png" />
+    <Content Include="Content\images\nav.png" />
+    <Content Include="Content\images\next.png" />
+    <Content Include="Content\images\p.jpg" />
+    <Content Include="Content\images\pic1.jpg" />
+    <Content Include="Content\images\pic2.jpg" />
+    <Content Include="Content\images\pic3.jpg" />
+    <Content Include="Content\images\pic4.jpg" />
+    <Content Include="Content\images\pic5.jpg" />
+    <Content Include="Content\images\pic6.jpg" />
+    <Content Include="Content\images\plus.png" />
+    <Content Include="Content\images\previous.png" />
+    <Content Include="Content\images\r.jpg" />
+    <Content Include="Content\images\side-1.jpg" />
+    <Content Include="Content\images\side-2.jpg" />
+    <Content Include="Content\images\side-3.jpg" />
+    <Content Include="Content\images\sprit-1.png" />
+    <Content Include="Content\StyleExtra\bootstrap.css" />
+    <Content Include="Content\StyleExtra\jquery.lightbox.css" />
+    <Content Include="Content\StyleExtra\style.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -188,6 +222,9 @@
     <Content Include="Scripts\jquery.validate.min.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\JsExtra\jquery.lightbox.js" />
+    <Content Include="Scripts\JsExtra\jquery.min.js" />
+    <Content Include="Scripts\JsExtra\responsiveslides.min.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
@@ -227,8 +264,18 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
-    <Content Include="Views\PostNews\Index.cshtml" />
-    <Content Include="Views\PostNews\Create.cshtml" />
+    <Content Include="Views\Shared\_LayoutPage_GreenUI.cshtml" />
+    <Content Include="Views\TheFirst\Index.cshtml" />
+    <Content Include="Views\PartialViews\HeaderPage.cshtml" />
+    <Content Include="Views\PartialViews\FootPage.cshtml" />
+    <Content Include="Views\PartialViews\GetInTouchPage.cshtml" />
+    <Content Include="Views\PartialViews\WhatWhyPage.cshtml" />
+    <Content Include="Views\PartialViews\AboutPage.cshtml" />
+    <Content Include="Views\PartialViews\MidNewsPage.cshtml" />
+    <Content Include="Views\About\Index.cshtml" />
+    <Content Include="Views\Products\Index.cshtml" />
+    <Content Include="Views\News\Index.cshtml" />
+    <Content Include="Views\Contact\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
