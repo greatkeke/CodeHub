@@ -1,0 +1,152 @@
+﻿@model Models.News
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_LayoutPage_GreenUI.cshtml";
+}
+<div class="service-section">
+    <div class="container">
+        <main class="col-md-8 main-content">
+
+
+            <article id="83" class="post tag-about-ghost tag-release">
+
+                <header class="post-head">
+                    <h1 class="post-title">Ghost 0.6.2 版本正式发布</h1>
+                    <section class="post-meta">
+                        <span class="author">作者：<a href="/author/wangsai/">王赛</a></span> •
+                        <time class="date" datetime="2015-04-26">2015年04月26日</time>
+                    </section>
+                </header>
+
+
+                <section class="post-content">
+                    <p>Ghost 0.6.2 主要是对 0.6.x 版本发布以来进行的 bug 修复。是否会问 0.6.1 版本去哪儿了？其实又被乌龙了，刚发布就发现有重大 bug，所以 0.6.2 成了救火的版本了。。。</p>
+
+                    <h2 id="">主要变化</h2>
+
+                    <ul>
+                        <li>[修复] 在 Ghost 后台，作者（author）无法访问自己的信息</li>
+                        <li>[修复] {{ghost_head}} 在自定义错误页面引起错误</li>
+                        <li>[修复] 博文发布按钮不能判断当前要发布的是“博文”还是“独立页面”</li>
+                        <li>[修复] {{author.email}} 作为敏感信息居然被暴露出来</li>
+                        <li>[修复] Casper: 版权信息和上/下一页布局问题</li>
+                        <li>[修复] Casper: 字体图标的缓存</li>
+                        <li>[修复] 获取前/后一篇博文的助手函数被弄丢了（就是这个乌龙）</li>
+                        <li>[修复] Casper: 文本样式问题</li>
+                    </ul>
+
+                    <p><a href="https://gist.github.com/ErisDS/ec92d2b54b114eb0fab9">这里可以查看文正的更新日志</a> 。</p>
+
+                    <h2 id="">下载地址</h2>
+
+                    <p><a href="http://www.ghostchina.com/download/">http://www.ghostchina.com/download/</a></p>
+
+                    <p><strong>注意：</strong> 从 Ghost 0.6.0 版本开始，Ghost 中文版完整包已经集成了 Nodejs 0.12 版本的 sqlite3 原生库，在 windows（32/64 bit）、Linux（32/64 bit）、Mac（64 bit）操作系统上可以直接在 Nodejs 0.10.x 和 0.12.x 版本上运行。<strong>但是，我们强烈建议使用 Node.js 0.10.x 最新版本。对 Node.js 0.12.x 版本的支持还有待考验！</strong></p>
+
+                    <p><strong>强烈建议大家下载并使用 <a href="http://www.ghostchina.com/download/">Ghost 0.6.2</a> 中文版完整集成包，免去 <code>npm install --production</code> 安装依赖包时被墙！</strong></p>
+
+                    <p>如果你喜欢用英文版？可以下载 中文集成包 和 英文原版安装包，首先解压 中文版集成包，然后再解压 英文版安装包 覆盖 中文版 即可，两个版本完全兼容，任意切换，同时还能免去安装依赖包时被墙。</p>
+
+                    <h2 id="">如何升级</h2>
+
+                    <p><strong>Ghost 非集成包升级：</strong> <a href="http://www.ghostchina.com/download/">下载 Ghost 0.6.2</a> 然后根据 <a href="http://support.ghost.org/how-to-upgrade">升级指南</a> 进行操作即可。如果你之前没有跟随 Ghost 版本进行升级，也没关系，只要你现在运行的是 0.5.x 版本就能直接升级到最新的 0.6.2 版本。</p>
+
+                    <p><strong>对于使用 Ghost 中文完整集成包的同学：</strong> 首先将 Ghost 0.6.2 完整包下载下来；然后进入当前所用 Ghost 的根目录下，将除了 <code>contents</code> 目录 和 <code>config.js</code> 文件之外的所有文件全部删除，然后解压新下载的 0.6.2 版本到此目录下即可（如果你在 Ghost 默认主题的基础上进行了修改，注意<strong>不要覆盖 <code>contents</code> 目录</strong>。 ）；最后重启 ghost 即可。</p>
+
+                    <h2 id="">致谢</h2>
+
+                    <p>This release was speedily crafted by Hannah Wolfe &amp; Sebastian Gierlinger</p>
+                </section>
+
+                <footer class="post-footer clearfix">
+                    <div class="pull-left tag-list">
+                        <i class="fa fa-folder-open-o"></i>
+                        <a href="/tag/about-ghost/">Ghost</a>, <a href="/tag/release/">新版本发布</a>
+                    </div>
+
+                    <div class="pull-right share">
+                        <div class="bdsharebuttonbox share-icons bdshare-button-style0-24" data-bd-bind="1430366277872">
+                            <a href="#" class="bds_more" data-cmd="more"></a>
+                            <a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a>
+                            <a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+                            <a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博"></a>
+                            <a href="#" class="bds_renren" data-cmd="renren" title="分享到人人网"></a>
+                            <a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a>
+                        </div>
+                    </div>
+                </footer>
+
+            </article>
+
+            <div class="about-author clearfix">
+                <a href="/author/wangsai/"><img src="http://static.ghostchina.com/image/5/ea/da657733ee8c9add9cf3fd70183a6.png" alt="王赛" class="avatar pull-left"></a>
+
+                <div class="details">
+                    <div class="author">
+                        关于作者 <a href="/author/wangsai/">王赛</a>
+                    </div>
+                    <div class="meta-info">
+                        <span class="loaction"><i class="fa fa-home"></i>北京</span>
+                        <span class="website"><i class="fa fa-globe"></i><a href="http://www.bootcss.com" targer="_blank">个人网站/博客</a></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="prev-next-wrap clearfix">
+
+                <a class="btn btn-default" href="/ghost-0-6-0-released/"><i class="fa fa-angle-left fa-fw"></i> Ghost 0.6.0 版本正式发布</a>
+                &nbsp;
+
+            </div>
+
+
+        </main>
+        @*<div class="service-section-grids">
+
+            <div>
+                <h4>详细信息</h4>
+
+                <hr />
+               
+                <dl class="dl-horizontal">
+                    <dt>
+                        @Html.DisplayNameFor(model => model.Title)
+                    </dt>
+
+                    <dd>
+                        @Html.DisplayFor(model => model.Title)
+                    </dd>
+
+                    <dt>
+                        @Html.DisplayNameFor(model => model.PortDate)
+                    </dt>
+
+                    <dd>
+                        @Html.DisplayFor(model => model.PortDate)
+                    </dd>
+
+                    <dt>
+                        @Html.DisplayNameFor(model => model.AutherId)
+                    </dt>
+
+                    <dd>
+                        @Html.DisplayFor(model => model.AutherId)
+                    </dd>
+
+                    <dt>
+                        @Html.DisplayNameFor(model => model.Content)
+                    </dt>
+
+                    <dd>
+                        @Html.DisplayFor(model => model.Content)
+                    </dd>
+
+                </dl>
+            </div>
+            <p>
+                @Html.ActionLink("返回列表", "Index")
+            </p>
+        </div>*@
+    </div>
+</div>

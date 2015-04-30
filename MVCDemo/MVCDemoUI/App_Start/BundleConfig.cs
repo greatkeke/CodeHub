@@ -26,7 +26,9 @@ namespace MVCDemoUI
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
                       "~/Content/site.css"));
-            //bundles.Add(new ScriptBundle("~/bundles/validate").Include("~/Scripts/jquery.validate.min.js", "~/Scripts/jquery.validate.unobtrusive.min.js"));
+            //GreenUI的引用
+            bundles.Add(new StyleBundle("~/Green/css").Include("~/Content/StyleExtra/style.css","~/Content/StyleExtra/jquery.lightbox.css"));
+            bundles.Add(new ScriptBundle("~/Green/js").Include("~/Scripts/JsExtra/jquery.lightbox.js", "~/Scripts/JsExtra/responsiveslides.min.js"));
 
         }
     }
