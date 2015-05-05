@@ -10,3 +10,14 @@ E:\E盘备份\Test\MVCDemo\Models\bin\Debug\zh-Hans\EntityFramework.SqlServer.re
 E:\E盘备份\Test\MVCDemo\Models\obj\Debug\Models.csprojResolveAssemblyReference.cache
 E:\E盘备份\Test\MVCDemo\Models\obj\Debug\Models.dll
 E:\E盘备份\Test\MVCDemo\Models\obj\Debug\Models.pdb
+E:\CodeHub\MVCDemo\Models\bin\Debug\Models.dll.config
+E:\CodeHub\MVCDemo\Models\bin\Debug\Models.dll
+E:\CodeHub\MVCDemo\Models\bin\Debug\Models.pdb
+E:\CodeHub\MVCDemo\Models\bin\Debug\EntityFramework.dll
+E:\CodeHub\MVCDemo\Models\bin\Debug\EntityFramework.SqlServer.dll
+E:\CodeHub\MVCDemo\Models\bin\Debug\EntityFramework.xml
+E:\CodeHub\MVCDemo\Models\bin\Debug\EntityFramework.SqlServer.xml
+E:\CodeHub\MVCDemo\Models\bin\Debug\zh-Hans\EntityFramework.resources.dll
+E:\CodeHub\MVCDemo\Models\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
+E:\CodeHub\MVCDemo\Models\obj\Debug\Models.dll
+E:\CodeHub\MVCDemo\Models\obj\Debug\Models.pdb

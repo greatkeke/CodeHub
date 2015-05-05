@@ -3,3 +3,7 @@ E:\E盘备份\Test\MVCDemo\DALRepository\bin\Debug\DALRepository.pdb
 E:\E盘备份\Test\MVCDemo\DALRepository\obj\Debug\DALRepository.csprojResolveAssemblyReference.cache
 E:\E盘备份\Test\MVCDemo\DALRepository\obj\Debug\DALRepository.dll
 E:\E盘备份\Test\MVCDemo\DALRepository\obj\Debug\DALRepository.pdb
+E:\CodeHub\MVCDemo\DALRepository\bin\Debug\DALRepository.dll
+E:\CodeHub\MVCDemo\DALRepository\bin\Debug\DALRepository.pdb
+E:\CodeHub\MVCDemo\DALRepository\obj\Debug\DALRepository.dll
+E:\CodeHub\MVCDemo\DALRepository\obj\Debug\DALRepository.pdb

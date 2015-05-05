@@ -3,3 +3,8 @@ E:\E盘备份\Test\MVCDemo\MvcDemoUnitTestProject\bin\Debug\MvcDemoUnitTestProje
 E:\E盘备份\Test\MVCDemo\MvcDemoUnitTestProject\obj\Debug\MvcDemoUnitTestProject.csprojResolveAssemblyReference.cache
 E:\E盘备份\Test\MVCDemo\MvcDemoUnitTestProject\obj\Debug\MvcDemoUnitTestProject.dll
 E:\E盘备份\Test\MVCDemo\MvcDemoUnitTestProject\obj\Debug\MvcDemoUnitTestProject.pdb
+E:\CodeHub\MVCDemo\MvcDemoUnitTestProject\bin\Debug\MvcDemoUnitTestProject.dll
+E:\CodeHub\MVCDemo\MvcDemoUnitTestProject\bin\Debug\MvcDemoUnitTestProject.pdb
+E:\CodeHub\MVCDemo\MvcDemoUnitTestProject\obj\Debug\MvcDemoUnitTestProject.csprojResolveAssemblyReference.cache
+E:\CodeHub\MVCDemo\MvcDemoUnitTestProject\obj\Debug\MvcDemoUnitTestProject.dll
+E:\CodeHub\MVCDemo\MvcDemoUnitTestProject\obj\Debug\MvcDemoUnitTestProject.pdb

@@ -176,8 +176,6 @@
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\bootstrap.css" />
-    <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\images\1.jpg" />
     <Content Include="Content\images\2.jpg" />
     <Content Include="Content\images\3.jpg" />
@@ -205,7 +203,10 @@
     <Content Include="Content\images\side-2.jpg" />
     <Content Include="Content\images\side-3.jpg" />
     <Content Include="Content\images\sprit-1.png" />
-    <Content Include="Content\StyleExtra\bootstrap.css" />
+    <Content Include="Content\bootstrap-theme.css" />
+    <Content Include="Content\bootstrap-theme.min.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\StyleExtra\jquery.lightbox.css" />
     <Content Include="Content\StyleExtra\style.css" />
     <Content Include="favicon.ico" />
@@ -214,7 +215,10 @@
     <Content Include="Content\Site.css" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="Content\bootstrap.css.map" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Scripts\bootstrapExtra\npm.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
     <None Include="Scripts\jquery.validate-vsdoc.js" />
@@ -222,6 +226,7 @@
     <Content Include="Scripts\jquery.validate.min.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\bootstrapExtra\holder.js" />
     <Content Include="Scripts\JsExtra\jquery.lightbox.js" />
     <Content Include="Scripts\JsExtra\jquery.min.js" />
     <Content Include="Scripts\JsExtra\responsiveslides.min.js" />

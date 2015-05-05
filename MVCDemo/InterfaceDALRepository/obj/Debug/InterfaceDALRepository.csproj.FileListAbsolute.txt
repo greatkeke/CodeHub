@@ -3,3 +3,8 @@ E:\E盘备份\Test\MVCDemo\InterfaceDALRepository\bin\Debug\InterfaceDALReposito
 E:\E盘备份\Test\MVCDemo\InterfaceDALRepository\obj\Debug\InterfaceDALRepository.csprojResolveAssemblyReference.cache
 E:\E盘备份\Test\MVCDemo\InterfaceDALRepository\obj\Debug\InterfaceDALRepository.dll
 E:\E盘备份\Test\MVCDemo\InterfaceDALRepository\obj\Debug\InterfaceDALRepository.pdb
+E:\CodeHub\MVCDemo\InterfaceDALRepository\bin\Debug\InterfaceDALRepository.dll
+E:\CodeHub\MVCDemo\InterfaceDALRepository\bin\Debug\InterfaceDALRepository.pdb
+E:\CodeHub\MVCDemo\InterfaceDALRepository\obj\Debug\InterfaceDALRepository.csprojResolveAssemblyReference.cache
+E:\CodeHub\MVCDemo\InterfaceDALRepository\obj\Debug\InterfaceDALRepository.dll
+E:\CodeHub\MVCDemo\InterfaceDALRepository\obj\Debug\InterfaceDALRepository.pdb
