@@ -11,6 +11,22 @@ namespace MVCDemoUI.Controllers
         // GET: About
         public ActionResult Index()
         {
+            //1、获取【关于我们】数据
+            string title = "这里是关于我们的标题";
+            string content = "这里是关于我们的内容这里是关于我们的内容这里是关于我们的内容这里是关于我们的内容这里是关于我们的内容这里是关于我们的内容";
+            ViewData["aboutTitle"] = title;
+            ViewData["aboutContent"] = content;
+            //2、获取【what】数据
+            string whatImgLink = "../Content/images/crop.jpg";
+            string whatContent = "此处展示我们正在做的东西。此处展示我们正在做的东西。此处展示我们正在做的东西。此处展示我们正在做的东西。此处展示我们正在做的东西。此处展示我们正在做的东西。";
+            string whatLink = "#";
+            ViewData["whatImgLink"] = whatImgLink;
+            ViewData["whatContent"] = whatContent;
+            ViewData["whatLink"] = whatLink;
+            //3、获取【why】数据
+            List<string> listStr = new List<string>() { "优势1的详细信息", "优势2的详细信息", "优势3的详细信息", "优势4的详细信息", "优势5的详细信息" };
+            ViewData["PerfectList"] = listStr;
+
             return View();
         }
 

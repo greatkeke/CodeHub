@@ -1,11 +1,11 @@
 ﻿<div class="about-section-bottom">
     <div class="col-md-6 what-we-do">
         <h4>我们做了什么？</h4>
-        <a href="details.html"><img src="../Content/images/crop.jpg" alt="" /></a>
+        <a href="details.html"><img src="@ViewData["whatImgLink"]" alt="" /></a>
         <p>
-            此处展示我们正在做的东西。此处展示我们正在做的东西。此处展示我们正在做的东西。此处展示我们正在做的东西。此处展示我们正在做的东西。此处展示我们正在做的东西。
+            @ViewData["whatContent"]
         </p>
-        <a class="btn btn-1 btn-1c more" href="details.html">查看更多</a>
+        <a class="btn btn-1 btn-1c more" href="@ViewData["whatLink"]">查看更多</a>
     </div>
     <div class="col-md-6 feature-accord">
         <ul class="topic_grid">
@@ -13,7 +13,31 @@
         </ul>
         <div class="menu_vertical">
             <section class="accordation_menu">
-                <div>
+                @{List<string>
+                    temp = (List<string>
+                        )ViewData["PerfectList"];
+                  if (temp==null||temp.Count <= 0)
+                  {
+                      temp = new List<string>(){"","","","",""};
+                  }
+                for (int i = 0; i < 5; i++)
+                {
+                    <div>
+                        <input id="label-@(i+1)" name="lida" type="radio" checked />
+                        <label for="label-@(i+1)" id="item@(i+1)"><i class="ferme"> </i><span class="m_5">优势@(i + 1)  </span><i class="icon-plus-sign i-right1"></i><i class="icon-minus-sign i-right2"></i></label>
+                        <div class="content1" id="a@(i+1)">
+                            <ul class="news_list">
+                                <li class="date_desc">
+                                    <p>
+                                        @temp[i]
+                                    </p>
+                                </li>
+                                <div class="clearfix"> </div>
+                            </ul>
+                        </div>
+                    </div>
+                }}
+                @*<div>
                     <input id="label-1" name="lida" type="radio" checked />
                     <label for="label-1" id="item1"><i class="ferme"> </i><span class="m_5">优势1  </span><i class="icon-plus-sign i-right1"></i><i class="icon-minus-sign i-right2"></i></label>
                     <div class="content1" id="a1">
@@ -84,7 +108,7 @@
                             <div class="clearfix"> </div>
                         </ul>
                     </div>
-                </div>
+                </div>*@
             </section>
         </div>
     </div>
