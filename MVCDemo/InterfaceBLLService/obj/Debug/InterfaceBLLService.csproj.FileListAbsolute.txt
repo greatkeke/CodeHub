@@ -8,3 +8,8 @@ E:\CodeHub\MVCDemo\InterfaceBLLService\bin\Debug\InterfaceBLLService.pdb
 E:\CodeHub\MVCDemo\InterfaceBLLService\obj\Debug\InterfaceBLLService.csprojResolveAssemblyReference.cache
 E:\CodeHub\MVCDemo\InterfaceBLLService\obj\Debug\InterfaceBLLService.dll
 E:\CodeHub\MVCDemo\InterfaceBLLService\obj\Debug\InterfaceBLLService.pdb
+C:\Users\Feng\Documents\GitHub\CodeHub\MVCDemo\InterfaceBLLService\bin\Debug\InterfaceBLLService.dll
+C:\Users\Feng\Documents\GitHub\CodeHub\MVCDemo\InterfaceBLLService\bin\Debug\InterfaceBLLService.pdb
+C:\Users\Feng\Documents\GitHub\CodeHub\MVCDemo\InterfaceBLLService\obj\Debug\InterfaceBLLService.csprojResolveAssemblyReference.cache
+C:\Users\Feng\Documents\GitHub\CodeHub\MVCDemo\InterfaceBLLService\obj\Debug\InterfaceBLLService.dll
+C:\Users\Feng\Documents\GitHub\CodeHub\MVCDemo\InterfaceBLLService\obj\Debug\InterfaceBLLService.pdb

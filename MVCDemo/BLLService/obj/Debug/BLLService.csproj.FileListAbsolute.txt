@@ -8,3 +8,8 @@ E:\CodeHub\MVCDemo\BLLService\bin\Debug\BLLService.pdb
 E:\CodeHub\MVCDemo\BLLService\obj\Debug\BLLService.csprojResolveAssemblyReference.cache
 E:\CodeHub\MVCDemo\BLLService\obj\Debug\BLLService.dll
 E:\CodeHub\MVCDemo\BLLService\obj\Debug\BLLService.pdb
+C:\Users\Feng\Documents\GitHub\CodeHub\MVCDemo\BLLService\bin\Debug\BLLService.dll
+C:\Users\Feng\Documents\GitHub\CodeHub\MVCDemo\BLLService\bin\Debug\BLLService.pdb
+C:\Users\Feng\Documents\GitHub\CodeHub\MVCDemo\BLLService\obj\Debug\BLLService.csprojResolveAssemblyReference.cache
+C:\Users\Feng\Documents\GitHub\CodeHub\MVCDemo\BLLService\obj\Debug\BLLService.dll
+C:\Users\Feng\Documents\GitHub\CodeHub\MVCDemo\BLLService\obj\Debug\BLLService.pdb

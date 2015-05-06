@@ -8,3 +8,8 @@ E:\CodeHub\MVCDemo\InterfaceDALRepository\bin\Debug\InterfaceDALRepository.pdb
 E:\CodeHub\MVCDemo\InterfaceDALRepository\obj\Debug\InterfaceDALRepository.csprojResolveAssemblyReference.cache
 E:\CodeHub\MVCDemo\InterfaceDALRepository\obj\Debug\InterfaceDALRepository.dll
 E:\CodeHub\MVCDemo\InterfaceDALRepository\obj\Debug\InterfaceDALRepository.pdb
+C:\Users\Feng\Documents\GitHub\CodeHub\MVCDemo\InterfaceDALRepository\bin\Debug\InterfaceDALRepository.dll
+C:\Users\Feng\Documents\GitHub\CodeHub\MVCDemo\InterfaceDALRepository\bin\Debug\InterfaceDALRepository.pdb
+C:\Users\Feng\Documents\GitHub\CodeHub\MVCDemo\InterfaceDALRepository\obj\Debug\InterfaceDALRepository.csprojResolveAssemblyReference.cache
+C:\Users\Feng\Documents\GitHub\CodeHub\MVCDemo\InterfaceDALRepository\obj\Debug\InterfaceDALRepository.dll
+C:\Users\Feng\Documents\GitHub\CodeHub\MVCDemo\InterfaceDALRepository\obj\Debug\InterfaceDALRepository.pdb

@@ -7,3 +7,8 @@ E:\CodeHub\MVCDemo\DALRepository\bin\Debug\DALRepository.dll
 E:\CodeHub\MVCDemo\DALRepository\bin\Debug\DALRepository.pdb
 E:\CodeHub\MVCDemo\DALRepository\obj\Debug\DALRepository.dll
 E:\CodeHub\MVCDemo\DALRepository\obj\Debug\DALRepository.pdb
+C:\Users\Feng\Documents\GitHub\CodeHub\MVCDemo\DALRepository\bin\Debug\DALRepository.dll
+C:\Users\Feng\Documents\GitHub\CodeHub\MVCDemo\DALRepository\bin\Debug\DALRepository.pdb
+C:\Users\Feng\Documents\GitHub\CodeHub\MVCDemo\DALRepository\obj\Debug\DALRepository.csprojResolveAssemblyReference.cache
+C:\Users\Feng\Documents\GitHub\CodeHub\MVCDemo\DALRepository\obj\Debug\DALRepository.dll
+C:\Users\Feng\Documents\GitHub\CodeHub\MVCDemo\DALRepository\obj\Debug\DALRepository.pdb

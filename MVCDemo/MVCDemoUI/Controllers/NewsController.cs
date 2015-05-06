@@ -48,7 +48,11 @@ namespace MVCDemoUI.Controllers
         }
 
         // GET: News/Edit/5
-        public ActionResult Edit(int id)
+        /// <summary>
+        /// int id
+        /// </summary>
+        /// <returns></returns>
+        public ActionResult Edit()
         {
             return View();
         }
